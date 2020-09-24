@@ -1,0 +1,31 @@
+main {
+  background-color: lightgray;
+  width: 80vw;
+}
+
+.display-div {
+  background-color: white;
+  height: 50rem;
+  justify-content: flex-start;
+  width: 50rem;
+}
+
+.selection-div {
+  align-content: flex-end;
+  background-color: black;
+  height: 5rem;
+  justify-content: start;
+  width: 10rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--align-center {
+  align-content: center;
+}
+
+.flex--justify-center {
+  justify-content: center;
+}
