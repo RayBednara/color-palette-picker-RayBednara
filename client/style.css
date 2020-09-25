@@ -1,31 +1,29 @@
+main,
+main > div {
+  margin: 0 auto;
+}
+
 main {
-  background-color: lightgray;
-  width: 80vw;
+  background-color: #1a1d21;
+  height: 1012px;
+  width: 1200px;
 }
 
-.display-div {
-  background-color: white;
-  height: 50rem;
-  justify-content: flex-start;
-  width: 50rem;
+div > div {
+  --0: #fb2313;
+  --1: #ae9812;
+  --2: #fbfbfb;
+  --3: #aeeeee;
+  --4: #ea5678;
+
+  height: 75px;
+  width: 182px;
 }
 
-.selection-div {
-  align-content: flex-end;
-  background-color: black;
-  height: 5rem;
-  justify-content: start;
-  width: 10rem;
-}
-
-.flex {
+main > div {
+  align-items: flex-end;
+  background-color: #161616;
   display: flex;
-}
-
-.flex--align-center {
-  align-content: center;
-}
-
-.flex--justify-center {
-  justify-content: center;
+  height: 750px;
+  width: 900px;
 }
