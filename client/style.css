@@ -27,3 +27,7 @@ main > div {
   height: 750px;
   width: 900px;
 }
+
+.greyscale {
+  filter: grayscale(75%);
+}
